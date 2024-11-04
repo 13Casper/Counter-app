@@ -1,21 +1,28 @@
 body {
-    background-image: url(station.jpg);
     background-size: cover;
-    font-family:'Open Sans', Roboto,  'Segoe UI', BlinkMacSystemFont, -apple-system,   Oxygen, Ubuntu, Cantarell,  'Helvetica Neue', sans-serif;
+    font-family:'itim', sans-serif;
     font-weight: bold;
     text-align: center;
+    background-image: url(images/bodyBackground.jpg);
 }
 
 div{
     max-width: 800px;
-    border: 2px solid black;
     border-radius: 10px;
     margin: auto;
+    background-image: url(images/pbackground.jpg
+    );
+    height: 70%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 5px silver, -3px -3px 5px silver;
 }
 
 h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -30,16 +37,64 @@ button {
     padding-bottom: 10px;
     color: black;
     font-weight: bold;
-    width: 200px;
-    margin-bottom: 5px;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 10px;
     border-radius: 5px;
-}
-
-#increment-btn {
+    font-family: 'itim', sans-serif;
     background: transparent;
+    transition: 0.3s;
 }
 
-#save-btn {
-    background: transparent;
+button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
+/* Fonts: */
+
+.poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+.itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
